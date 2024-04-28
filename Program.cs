@@ -14,6 +14,7 @@ class Program
 
      string[] newArray = new string[count];
         int index = 0;
+
 foreach (var str in initialArray)
         {
             if (str.Length <= 3)
@@ -22,6 +23,7 @@ foreach (var str in initialArray)
                 index++;
             }
         }
+        
         Console.WriteLine("Новый массив строк, длина которых меньше или равна 3 символам:");
         foreach (var str in newArray)
         {
