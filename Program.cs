@@ -22,3 +22,10 @@ foreach (var str in initialArray)
                 index++;
             }
         }
+        Console.WriteLine("Новый массив строк, длина которых меньше или равна 3 символам:");
+        foreach (var str in newArray)
+        {
+            Console.WriteLine(str);
+        }
+    }
+}
