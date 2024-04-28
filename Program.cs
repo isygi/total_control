@@ -4,7 +4,12 @@ class Program
 {
     static void Main()
     {
-        // Задаем первоначальный массив строк
+        
         string[] initialArray = { "hello", "2", "world", ":-)" };
+        int count = 0;
+        foreach (var str in initialArray)
+        {
+            if (str.Length <= 3) count++;
+        }
 
      
