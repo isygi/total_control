@@ -12,4 +12,5 @@ class Program
             if (str.Length <= 3) count++;
         }
 
-     
+     string[] newArray = new string[count];
+        int index = 0;
